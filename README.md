@@ -1,4 +1,4 @@
-# pwani-cloudrun-app
+# cloudrun-app
 
 A simple Python Flask web service deployed on Google Cloud Run.
 
