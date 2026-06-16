@@ -1,6 +1,6 @@
 # cloudrun-app
 
-A simple Python Flask web service deployed on Google Cloud Run.
+A simple Python Flask web service deployed on Render.
 
 ## Endpoints
 
@@ -85,7 +85,7 @@ gcloud run deploy pwani-cloudrun-app \
 ### Step 5 — Verify the deployment
 ```bash
 # Get the service URL
-gcloud run services describe pwani-cloudrun-app \
+gcloud run services describe cloudrun-app \
   --platform managed \
   --region us-central1 \
   --format "value(status.url)"
@@ -98,6 +98,6 @@ curl SERVICE_URL/info
 
 ---
 
-## Cloud Run Service URL
-<!-- TODO: Paste your deployed URL here after deployment -->
-`https://pwani-cloudrun-app-XXXXXXXXXX-uc.a.run.app`
+##  Render deployment url
+
+`https://cloudrun-app-c52b.onrender.com/`
